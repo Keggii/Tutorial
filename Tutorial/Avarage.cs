@@ -4,7 +4,7 @@ public class Avarage
 {
     public static void AvarageCalc()
     {
-        Console.WriteLine("from what number do you wanna have the avarage? (split them with space)");
+        Console.WriteLine("from what numbers do you wanna have the avarage? (split them with space)");
         String[] numbers = Console.ReadLine().Split(" ");
         int avarage = 0;
         int j = 0;
